@@ -55,7 +55,7 @@ const discount = () =>{
     discount= carrito[i].price * carrito[i].count;
     if (discount  > 100) {
       
-      carrito[i].price = carrito[i].price * 0.9;
+      carrito[i].price = carrito[i].price * 0.95;
     } else {
       console.log("es menor que 100");
     }; 
