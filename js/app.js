@@ -33,7 +33,7 @@ const carrito = [
 
 //global vars
 const cartInputElement = document.getElementById("container");
-let elementToDelete = "";
+
 
 // find element and delete
 let deleteElement = () => {
