@@ -50,10 +50,11 @@ deleteElement();
 
 //discount
 const discount = () =>{
-  let discount;
+  let totalPrice;
   for (i = 0; i < carrito.length; i++) {
-    discount= carrito[i].price * carrito[i].count;
-    if (discount  > 100) {
+    totalPrice= carrito[i].price * carrito[i].count;
+    console.log(totalPrice);
+    if (totalPrice  > 100) {
       
       carrito[i].price = carrito[i].price * 0.95;
     } else {
