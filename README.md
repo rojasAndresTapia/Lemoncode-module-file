@@ -4,4 +4,4 @@ The products have id, name, price, stock and category.
 
 It also has a function to filter and one to delete product.
 
-<img src="images/scree-page" width="50%">
+<img src="images/scree-page.png" width="50%">
