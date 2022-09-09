@@ -3,3 +3,5 @@ In this javascript exercise there are boxes created dynamically with jsx to show
 The products have id, name, price, stock and category. 
 
 It also has a function to filter and one to delete product.
+
+<img src="images/scree-page" width="50%">
